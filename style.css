@@ -2257,7 +2257,7 @@ body {
               transition-delay: .3s; }
     /* line 36, sass/pages/_homepage.scss */
     .slider .slides .slide-subtitle {
-      color: #fd5927;
+      color: #fff;
       font-size: 48px;
       font-size: 3em;
       font-weight: 300;
