@@ -1,13 +1,3 @@
-/*!
- * Project_Name: Themezy Band Template
- * Author: Themezy
- * Email: info@themezy.com
- * URL: http://themezy.com
- */
-/*=========================================== 
- * Importing CSS Libraries
- *===========================================*/
-/* line 45, sass/libs/_normalize.scss */
 article,
 aside,
 details,
@@ -21,29 +11,28 @@ section,
 summary {
   display: block; }
 
-/* line 61, sass/libs/_normalize.scss */
 audio,
 canvas,
 video {
   display: inline-block; }
 
-/* line 74, sass/libs/_normalize.scss */
+
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 84, sass/libs/_normalize.scss */
+
 [hidden], template {
   display: none; }
 
-/* line 97, sass/libs/_normalize.scss */
+
 html {
   background: #fff;
   color: #000;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 109, sass/libs/_normalize.scss */
+
 html,
 button,
 input,
