@@ -2257,7 +2257,7 @@ body {
               transition-delay: .3s; }
     /* line 36, sass/pages/_homepage.scss */
     .slider .slides .slide-subtitle {
-      color: #fd5927;
+      color: #fff;
       font-size: 48px;
       font-size: 3em;
       font-weight: 300;
@@ -2692,4 +2692,10 @@ body {
       .item .social-share a:hover {
         color: #fd5927; }
 
+
+
 /*# sourceMappingURL=style.css.map */
+/*# Own styles */
+.eye-Catch {
+        font-family: 'Lobster', cursive;
+}
