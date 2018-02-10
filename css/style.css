@@ -241,7 +241,7 @@ Main Components
     /* top position and height will be set using js */
     width: calc(100% + 2px);
     left: -1px;
-    box-shadow: 0 100px 150px rgba(0, 0, 0, 0.4), inset 0 -3px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 150px rgba(0, 0, 0, 0.4), inset 0 -3px 0 rgba(0, 0, 0, 0.4);
     /* reset style */
     -ms-flex-negative: 1;
         flex-shrink: 1;
@@ -610,4 +610,8 @@ Main Components
 .cd-schedule.modal-is-open .cover-layer {
   opacity: 1;
   visibility: visible;
+}
+
+.event-info{
+  font-size: 125%;
 }
