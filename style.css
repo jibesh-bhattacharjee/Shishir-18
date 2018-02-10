@@ -2747,3 +2747,20 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+
+.padleft{
+  padding-left: 10px;
+}
+
+.fontadjust{
+  font-size: 30px;
+  color: #fd5927;
+  padding-right: 15px;
+}
+
+.test {
+  width: auto; 
+  border: 0px solid #000000;
+  word-wrap: break-word;
+  padding-left: 7%;
+}
