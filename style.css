@@ -2742,3 +2742,8 @@ body {
   min-width: 100px;
   min-height: 90px;
 }
+
+.get {
+  font-weight: bold;
+  font-size: 20px;
+}
