@@ -1,0 +1,129 @@
+* {
+  box-sizing: boder-box;
+}
+
+body {
+  margin: 0;
+}
+
+#main {
+  position: relative;
+  z-index: 20;
+  background: rgb(14, 14, 14);
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+}
+@media (min-width: 640px) {
+  #main {
+    padding: 0px;
+  }
+}
+
+.fake-section {
+  background: #000;
+  height: 300px;
+}
+
+.tiles-a {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.tiles-a ul {
+  margin: 0;
+  padding: 0;
+}
+.tiles-a li {
+  list-style: none;
+}
+@media (min-width: 640px) {
+  .tiles-a li {
+    float: left;
+    width: 33.33%;
+  }
+}
+.tiles-a a {
+  margin: 1em;
+  display: block;
+  background: rgb(173, 46, 0);
+  padding-top: 73%;
+  height: 0;
+}
+
+#aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: orangered;
+  overflow-y: scroll;
+  z-index: 10;
+}
+#aside img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+#aside .wrapper {
+  padding: 1em;
+}
+#aside .close {
+  width: 25px;
+  display: block;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.show-detail {
+  overflow: hidden;
+}
+.show-detail #main {
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;https://www.w3schools.com/cssref/pr_text_text-align.asp
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.team-head{
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 0px 5px 0px;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity: 100;
+  
+}
+
+.team-subhead{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 0px 10px 0px;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity: 100;
+}
